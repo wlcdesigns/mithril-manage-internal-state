@@ -1,0 +1,33 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+#app {
+  display: grid;
+  grid-template-areas: "red yellow green" "stop caution go";
+  gap: 1rem;
+}
+#app .red,
+#app .yellow,
+#app .green {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: silver;
+}
+#app .red.active {
+  background-color: red;
+}
+#app .yellow.active {
+  background-color: yellow;
+}
+#app .green.active {
+  background-color: green;
+}
+#app button {
+  width: 4rem;
+  text-align: center;
+}
+/*# sourceMappingURL=index.8353e49f.css.map */
